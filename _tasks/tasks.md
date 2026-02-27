@@ -1,8 +1,12 @@
 1. Squares of a Sorted Array  
 
-Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+Дан массив чисел отсортированный по возрастанию. Вернуть массив квадратов этих числе, упорядоченный по возрастанию.
 
 [Link](https://leetcode.com/problems/squares-of-a-sorted-array/description/) || [Решение](./ex_1/main.go)
+
+2. Дан массив чисел. Необходимо найти пару чисел, которая в сумме даст требуемое и вернуть пару индексов. 
+
+[Решение](./ex_2/main.go)
 
 <!-- 1. https://leetcode.com/problems/two-sum/description/
 
