@@ -8,6 +8,10 @@
 
 [Решение](./ex_2/main.go)
 
+3. Необходимо упорядочить последовательность объектов в массиве Flight в таком порядке, чтобы последующее значение from было равно предыдущему значению to  
+
+[Решение](./ex_2/main.go)
+
 <!-- 1. https://leetcode.com/problems/two-sum/description/
 
 2. https://leetcode.com/problems/fibonacci-number/

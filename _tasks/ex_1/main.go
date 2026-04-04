@@ -7,7 +7,6 @@ func main() {
 
 	var result []int
 	for i := 0; i < len(arr)/2; i++ {
-
 		a1 := arr[i] * arr[i]
 		a2 := arr[len(arr)-1-i] * arr[len(arr)-1-i]
 		if a1 > a2 {

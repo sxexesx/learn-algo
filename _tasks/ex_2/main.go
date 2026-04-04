@@ -11,6 +11,7 @@ func main() {
 
 func findSum(arr []int, target int) []int {
 	mm := make(map[int]int, len(arr))
+
 	for i := 0; i < len(arr); i++ {
 		a := target - arr[i]
 		if j, ok := mm[a]; ok {
@@ -18,5 +19,6 @@ func findSum(arr []int, target int) []int {
 		}
 		mm[arr[i]] = i
 	}
+
 	return []int{}
 }
