@@ -7,7 +7,7 @@
 --- 
 
 1. [Big O](_notes/note_1.md)
-2. []()
+2. [Sliding Window](_notes/note_1.md)
     
 ---  
 [Задачи](_tasks/tasks.md)
