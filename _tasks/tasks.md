@@ -10,7 +10,19 @@
 
 3. Необходимо упорядочить последовательность объектов в массиве Flight в таком порядке, чтобы последующее значение from было равно предыдущему значению to  
 
-[Решение](./ex_2/main.go)
+[Решение](./ex_3/main.go)
+
+4. Maximum Avarage Subarray (Leetcode 643)
+
+[Решение](./ex_4/main.go)
+
+5. Best Time to Buy and Sell Stock (Leetcode 121)
+
+[Решение](./ex_5/main.go)
+
+
+
+
 
 <!-- 1. https://leetcode.com/problems/two-sum/description/
 
