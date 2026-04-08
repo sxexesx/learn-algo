@@ -25,6 +25,12 @@
     - Задача на Sliding Window
     - [Решение](./ex_6/main.go)
 
+7. Max Consecutive Ones III
+    - [Leetcode](https://leetcode.com/problems/max-consecutive-ones-iii/description/)
+    - Задача на Sliding Window
+    - [Решение](./ex_7/main.go)
+
+
 
 
 <!-- 1. https://leetcode.com/problems/two-sum/description/
