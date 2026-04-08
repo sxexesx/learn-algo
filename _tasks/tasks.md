@@ -1,26 +1,29 @@
 1. Squares of a Sorted Array  
-
-Дан массив чисел отсортированный по возрастанию. Вернуть массив квадратов этих числе, упорядоченный по возрастанию.
-
-[Link](https://leetcode.com/problems/squares-of-a-sorted-array/description/) || [Решение](./ex_1/main.go)
+    - [Leetcode](https://leetcode.com/problems/squares-of-a-sorted-array/description)
+    - [Решение](./ex_1/main.go)
 
 2. Дан массив чисел. Необходимо найти пару чисел, которая в сумме даст требуемое и вернуть пару индексов. 
-
-[Решение](./ex_2/main.go)
+    - [Решение](./ex_2/main.go)
 
 3. Необходимо упорядочить последовательность объектов в массиве Flight в таком порядке, чтобы последующее значение from было равно предыдущему значению to  
+    - [Решение](./ex_3/main.go)
 
-[Решение](./ex_3/main.go)
+4. Maximum Avarage Subarray 
+    - [Leetcode](https://leetcode.com/problems/maximum-average-subarray-i/description/)
+    - Задача на Sliding Window
+    - [Решение](./ex_4/main.go)
 
-4. Maximum Avarage Subarray (Leetcode 643)
+5. Best Time to Buy and Sell Stock
+    - [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+    - Задача на Sliding Window
+    - [Решение](./ex_5/main.go)
 
-[Решение](./ex_4/main.go)
+6. Minimum Size Subarray Sum    
 
-5. Best Time to Buy and Sell Stock (Leetcode 121)
-
-[Решение](./ex_5/main.go)
-
-
+    minSubArrayLen returns the minimal length of a contiguous subarray of which the sum ≥ target. If there is no such subarray, returns 0.
+    - [Leetcode](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
+    - Задача на Sliding Window
+    - [Решение](./ex_6/main.go)
 
 
 

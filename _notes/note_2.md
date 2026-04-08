@@ -9,15 +9,20 @@
 ```golang
 func main() {
 	begin := 0
-	windowState := 0// состояние рамки
-    result := 0
+	window_state // состояние рамки
+    result
 
 	for end := 0; end < len(nums); end++ {
-        windowState += end
-        end - begin + 1 // window size
+        window_state
+        window_size = end - begin + 1
+
 		if // window_condition {
+            result
+            window_state
 			begin += 1 // shrink window
 		}
 	}
+    
+    return result
 }
 ```
