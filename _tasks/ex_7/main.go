@@ -1,11 +1,14 @@
 package main
 
+import "fmt"
+
 func main() {
-	nums := []int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}
-	longestOnes(nums, 2)
+	// nums := []int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}
+	nums := []int{1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1}
+	fmt.Println(longestOnes(nums, 2))
 }
 
-func longestOnes(nums []int, k int) {
+func longestOnes(nums []int, k int) int {
 	begin := 0
 	windowState := 0
 	result := 0
@@ -16,15 +19,15 @@ func longestOnes(nums []int, k int) {
 		}
 
 		for windowState > k {
-			result = max(result, end-begin+1)
-
 			if nums[begin] == 0 {
 				windowState -= 1
 			}
 
 			begin += 1 // shrink window
 		}
+
+		result = max(result, end-begin+1)
 	}
 
-	return max(result, end-begin+1)
+	return result
 }
