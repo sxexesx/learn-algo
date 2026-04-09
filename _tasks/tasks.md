@@ -31,6 +31,10 @@
     - [Решение](./ex_7/main.go)
 
 
+7. Longest Subarray of 1's After Deleting One Element
+    - [Leetcode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)
+    - Задача на Sliding Window
+    - [Решение](./ex_8/main.go)
 
 
 <!-- 1. https://leetcode.com/problems/two-sum/description/
