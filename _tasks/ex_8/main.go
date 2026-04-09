@@ -5,8 +5,6 @@ import "fmt"
 func main() {
 	// nums := []int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}
 	nums := []int{1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1}
-	//                           ^
-	// windowState  1
 	fmt.Println(longestOnes(nums))
 }
 
@@ -33,4 +31,11 @@ func longestOnes(nums []int) int {
 	}
 
 	return result
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
